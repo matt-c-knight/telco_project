@@ -32,6 +32,58 @@ We are given a Sql dataset that we are importing and converting to a csv file. T
 
 **online_security**
 
+**online_backup**
+
+**device_protection**
+
+**tech_support**
+
+**streaming_tv**
+
+**streaming_movies**
+
+**contract_type_id**
+
+**paperless_billing**
+
+**payment_type_id**
+
+**monthly_charges**
+
+**total_charges**
+
+**churn**
+
+**contract_type**
+
+**internet_service_type**
+
+**payment_type**
+
+## Initial Hypothesis 
+
+Null Hypothesis- There is no correlation between churn and method of payment.
+
+Alternative Hypothesis- There is a significant relationship between churn and method of payment.
+
+## Project Plan: Breaking it Down
+
+**acquire.py**
+
+Acquire telco data from Sql and convert to a CSV file.
+
+**prepare.py**
+
+**explore**
+
+**model**
+
+**conclusion**
+
+
+
+
+
 
 
 
