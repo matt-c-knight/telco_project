@@ -38,6 +38,9 @@ def prep_telco(cached=True):
     df.loc[df['churn'] == 'Yes', 'churn'] = 1
     df_dummies = pd.get_dummies(df.gender)
     df = pd.concat([df, df_dummies], axis=1)
-    df.drop(columns='gender')
-
+    df = df.drop(columns='gender')
+    df['phone_service'] = df.phone_service.astype('int')
+    df['paperless_billing'] = df.paperless_billing.astype('int')
+    df['churn'] = df.churn.astype('int')
+    
     return df
