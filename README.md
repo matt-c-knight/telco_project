@@ -74,9 +74,27 @@ Acquire telco data from Sql and convert to a CSV file.
 
 **prepare.py**
 
+- Drop columns that are rendundant or not determined to be relevant for evaluation.
+- Create dummy variables for non-numerical data.
+- Convert columns with Yes/No into 1/0's.
+
 **explore**
 
+- Visualize the data 
+
+- Test the hypothesis
+
 **model**
+
+- Use different algorthims looking for relationships
+
+- Look for most relevent features
+
+- Evaluate on train
+
+- Select top model
+
+- Run model on test data to verify
 
 **conclusion**
 
