@@ -98,7 +98,14 @@ Acquire telco data from Sql and convert to a CSV file.
 
 **conclusion**
 
+- My baseline was 73% and the models came up with the same accuracy,
+except when allowed for all variables, which produced an 80% accuracy.
 
+- On the correlation I explored between churn and payment type, I was able to 
+identify a strong relationship between churn and paying with electronic check(non-automatic payment).
+
+- This correlation was backed up by the chi-squared hypothesis test, 
+as well as the visualizations.
 
 
 
